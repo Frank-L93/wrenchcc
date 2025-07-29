@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="https://raw.githubusercontent.com/Frank-L93/wrenchcc/main/public/logo.svg" alt="Wrench.CC Logo" width="150">
+  <img src="https://raw.githubusercontent.com/Frank-L93/wrenchcc/main/public/logo.jpeg" alt="Wrench.CC Logo" width="150">
   <br />
   <h1>Wrench.CC</h1>
   <p><strong>Your Digital Bike Mechanic 🔧🚲</strong></p>
