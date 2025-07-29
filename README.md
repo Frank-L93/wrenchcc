@@ -8,7 +8,7 @@
 
   <p>
     <a href="https://github.com/Frank-L93/wrenchcc/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-blue.svg" alt="License"></a>
-    <a href="#"><img src="https://img.shields.io/badge/Laravel-11.x-FF2D20?logo=laravel" alt="Laravel"></a>
+    <a href="#"><img src="https://img.shields.io/badge/Laravel-12.x-FF2D20?logo=laravel" alt="Laravel"></a>
     <a href="#"><img src="https://img.shields.io/badge/Livewire-3.x-FB70A9?logo=livewire" alt="Livewire"></a>
     <a href="#"><img src="https://img.shields.io/badge/status-in%20development-orange" alt="Status"></a>
   </p>
