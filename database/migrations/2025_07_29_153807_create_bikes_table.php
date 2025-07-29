@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('bikes', function (Blueprint $table) {
             $table->id();
-            $table->foreignIdFor(model: 'User');
+            $table->foreignIdFor(model: 'user');
             $table->string('name');
             $table->string('brand');
             $table->string('model');

@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('components', function (Blueprint $table) {
             $table->id();
-            $table->foreignIdFor(model: 'Bike');
+            $table->foreignIdFor(model: 'bike');
             $table->string('type');
             $table->string('brand');
             $table->string('model');

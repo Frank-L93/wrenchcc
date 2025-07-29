@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('maintenance_logs', function (Blueprint $table) {
             $table->id();
-            $table->foreignIdFor(model: 'Component');
+            $table->foreignIdFor(model: 'component');
             $table->date('date');
             $table->longText('notes');
             $table->string('status');
@@ -26,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('maintenaince_logs');
+        Schema::dropIfExists('maintenance_logs');
     }
 };
