@@ -3,6 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use App\Models\Component;
 
 return new class extends Migration
 {
@@ -13,7 +14,7 @@ return new class extends Migration
     {
         Schema::create('maintenance_logs', function (Blueprint $table) {
             $table->id();
-            $table->foreignIdFor(model: 'component');
+            $table->foreignIdFor(model: Component::class);
             $table->date('date');
             $table->longText('notes');
             $table->string('status');
